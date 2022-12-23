@@ -4,29 +4,16 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/posts/16107/"/>
-      <url>/posts/16107/</url>
+      <title>Hexo创建新博客</title>
+      <link href="/posts/47032/"/>
+      <url>/posts/47032/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>第一篇博客</title>
-      <link href="/posts/48696/"/>
-      <url>/posts/48696/</url>
-      
-        <content type="html"><![CDATA[<h1 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h1><p><img src="https://raw.githubusercontent.com/shw2018/cdn/master/blog_files/img/Blog-Open-Source/blog-demo1.gif" alt="演示Demo"></p><h1 id="简短介绍"><a href="#简短介绍" class="headerlink" title="简短介绍"></a>简短介绍</h1><p>本博客基于<code>Hexo</code>框架搭建，用到<a href="https://github.com/shw2018/hexo-theme-matery">hexo-theme-matery</a>主题, 并在此基础之上做了修改。</p><hr><h2 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h2><p><strong>主题特性</strong>:</p><ul><li>简单漂亮，文章内容美观易读</li><li><a href="https://material.io/">Material Design</a> 设计</li><li>响应式设计，博客在桌面端、平板、手机等设备上均能很好的展现</li><li>首页轮播文章及每天动态切换 <code>Banner</code> 图片</li><li>瀑布流式的博客文章列表（文章无特色图片时会有 <code>24</code> 张漂亮的图片代替）</li><li>时间轴式的归档页</li><li><strong>词云</strong>的标签页和<strong>雷达图</strong>的分类页</li><li>丰富的关于我页面（包括关于我、文章统计图、我的项目、我的技能、相册等）</li><li>可自定义的数据的友情链接页面</li><li>支持文章置顶和文章打赏</li><li>支持 <code>MathJax</code></li><li><code>TOC</code> 目录</li><li>可设置复制文章内容时追加版权信息</li><li>可设置阅读文章时做密码验证</li><li><a href="https://gitalk.github.io/">Gitalk</a>、<a href="https://imsun.github.io/gitment/">Gitment</a>、<a href="https://valine.js.org/">Valine</a> 和 <a href="https://disqus.com/">Disqus</a> 评论模块（推荐使用 <code>Gitalk</code>）</li><li>集成了<a href="http://busuanzi.ibruce.info/">不蒜子统计</a>、谷歌分析（<code>Google Analytics</code>）和文章字数统计等功能</li><li>支持在首页的音乐播放和视频播放功能</li></ul><p><strong>简单使用方法：</strong></p><ol><li><code>star</code> 本项目</li><li>安装<a href="https://git-scm.com/downloads">Git</a>, 安装<a href="https://nodejs.org/en/">nodeJS</a></li><li>你可以直接<code>fork</code>一份源码到你的仓库，<code>clone</code>到本地</li><li>在本地博客仓库运行<code>npm i</code>命令安装依赖包</li><li>修改配置信息，改成自己的信息</li><li>运行命令<code>hexo  clean</code>（清除生成文件），<code>hexo g</code>（生成网页）， <code>hexo  s</code>（本地预览），<code>hexo d</code>（部署）</li></ol>]]></content>
+        <content type="html"><![CDATA[<h2 id="创建新博客"><a href="#创建新博客" class="headerlink" title="创建新博客"></a>创建新博客</h2><p>在博客目录下使用打开Git Bash 终端，输入以下命令：</p><pre class=" language-bash"><code class="language-bash">hexo new <span class="token string">"Post"</span></code></pre><p>或者</p><pre class=" language-bash"><code class="language-bash">hexo n <span class="token string">"Post"</span></code></pre><p>会默认使用post布局，然后自动在source_posts目录生成一个.md文件，使用markdown语法进行编写。<br>打开.md文件显示如下：</p><pre class=" language-bash"><code class="language-bash">title: 主题date: 2022-12-12 00:00:00</code></pre><p>建议作以下更改（具体信息由实际填写）：</p><pre class=" language-bash"><code class="language-bash">title: 主题date: 2022-12-12 00:00:00author: -coverImg: /source/medias/xxx.jpg <span class="token comment" spellcheck="true">#图片在/source中的路径位置</span>top: <span class="token boolean">true</span>cover: <span class="token boolean">true</span>password: -toc: <span class="token boolean">false</span>mathjax: <span class="token boolean">false</span>summary: 自定义的文章摘要内容categories: Markdowntags:  - Blog  - Markdown</code></pre><p>注意事项：对新博客命名时如需多个单词进行命名，可使用 hexo new “My New Post” 或者 hexo new My-New-Post。若不加入引号或间隔号，会默认选择最后一个单词命名。建议无论长短均使用 hexo new “New Name”。</p><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h2 id="以下为编写完成后将博客部署到服务器的命令："><a href="#以下为编写完成后将博客部署到服务器的命令：" class="headerlink" title="以下为编写完成后将博客部署到服务器的命令："></a>以下为编写完成后将博客部署到服务器的命令：</h2><h3 id="clean-cache"><a href="#clean-cache" class="headerlink" title="clean cache"></a>clean cache</h3><pre class=" language-bash"><code class="language-bash">$ hexo clean</code></pre><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate <span class="token comment" spellcheck="true">#可简写为 hexo g</span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server <span class="token comment" spellcheck="true">#可简写为 hexo s</span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy <span class="token comment" spellcheck="true">#可简写为 hexo d</span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
       <categories>
           
-          <category> 软件安装与配置 </category>
+          <category> 博客 </category>
           
       </categories>
       
@@ -46,27 +33,29 @@
     
     
     <entry>
-      <title>第一篇博客</title>
-      <link href="/posts/48696/"/>
-      <url>/posts/48696/</url>
+      <title>Franka-Control-Interface</title>
+      <link href="/posts/55824/"/>
+      <url>/posts/55824/</url>
       
-        <content type="html"><![CDATA[<p>#大灰狼来了</p><h2 id="小兔子乖乖"><a href="#小兔子乖乖" class="headerlink" title="小兔子乖乖"></a>小兔子乖乖</h2><h3 id="把门开开"><a href="#把门开开" class="headerlink" title="把门开开"></a>把门开开</h3><h3 id="大灰狼要来了"><a href="#大灰狼要来了" class="headerlink" title="大灰狼要来了"></a>大灰狼要来了</h3><h2 id="不开不开就不开，妈妈没回来"><a href="#不开不开就不开，妈妈没回来" class="headerlink" title="不开不开就不开，妈妈没回来"></a>不开不开就不开，妈妈没回来</h2><h3 id="嗷呜嗷呜"><a href="#嗷呜嗷呜" class="headerlink" title="嗷呜嗷呜~"></a>嗷呜嗷呜~</h3>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
       
       <categories>
           
-          <category> 软件安装与配置 </category>
+          <category> libfranka </category>
+          
+          <category> franka_ros </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Hexo </tag>
+            <tag> Franka </tag>
             
-            <tag> Github </tag>
+            <tag> Linux </tag>
             
-            <tag> nodejs </tag>
+            <tag> C++ </tag>
             
         </tags>
       
