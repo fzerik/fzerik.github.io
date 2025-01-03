@@ -15,66 +15,6 @@
     </entry>
     
     
-    
-    <entry>
-      <title>Hexo创建新博客</title>
-      <link href="/posts/47032/"/>
-      <url>/posts/47032/</url>
-      
-        <content type="html"><![CDATA[<hr><h2 id="创建新博客"><a href="#创建新博客" class="headerlink" title="创建新博客"></a>创建新博客</h2><span id="more"></span><hr><h2 id="新博客"><a href="#新博客" class="headerlink" title="新博客"></a>新博客</h2><p>在博客目录下使用打开Git Bash 终端，输入以下命令：</p><pre class=" language-bash"><code class="language-bash">hexo new <span class="token string">"Post"</span></code></pre><p>或者</p><pre class=" language-bash"><code class="language-bash">hexo n <span class="token string">"Post"</span></code></pre><p>会默认使用post布局，然后自动在source_posts目录生成一个.md文件，使用markdown语法进行编写。<br>打开.md文件显示如下：</p><pre class=" language-bash"><code class="language-bash">title: 主题date: 2022-12-12 00:00:00</code></pre><p>建议作以下更改（具体信息由实际填写）：</p><pre class=" language-bash"><code class="language-bash">title: 主题date: 2022-12-12 00:00:00author: -coverImg: /source/medias/xxx.jpg <span class="token comment" spellcheck="true">#图片在/source中的路径位置</span>top: <span class="token boolean">true</span>cover: <span class="token boolean">true</span>password: -toc: <span class="token boolean">false</span>mathjax: <span class="token boolean">false</span>summary: 自定义的文章摘要内容categories: Markdowntags:  - Blog  - Markdown</code></pre><p>注意事项：对新博客命名时如需多个单词进行命名，可使用 hexo new “My New Post” 或者 hexo new My-New-Post。若不加入引号或间隔号，会默认选择最后一个单词命名。建议无论长短均使用 hexo new “New Name”。</p><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h2 id="以下为编写完成后将博客部署到服务器的命令："><a href="#以下为编写完成后将博客部署到服务器的命令：" class="headerlink" title="以下为编写完成后将博客部署到服务器的命令："></a>以下为编写完成后将博客部署到服务器的命令：</h2><h3 id="clean-cache"><a href="#clean-cache" class="headerlink" title="clean cache"></a>clean cache</h3><pre class=" language-bash"><code class="language-bash">$ hexo clean</code></pre><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate <span class="token comment" spellcheck="true">#可简写为 hexo g</span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server <span class="token comment" spellcheck="true">#可简写为 hexo s</span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy <span class="token comment" spellcheck="true">#可简写为 hexo d</span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 博客 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Hexo </tag>
-            
-            <tag> Github </tag>
-            
-            <tag> nodejs </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Franka-Control-Interface</title>
-      <link href="/posts/55824/"/>
-      <url>/posts/55824/</url>
-      
-        <content type="html"><![CDATA[<hr><h2 id="创建新博客"><a href="#创建新博客" class="headerlink" title="创建新博客"></a>创建新博客</h2><span id="more"></span><hr><h2 id="新博客"><a href="#新博客" class="headerlink" title="新博客"></a>新博客</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> libfranka </category>
-          
-          <category> franka_ros </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Franka </tag>
-            
-            <tag> Linux </tag>
-            
-            <tag> C++ </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
   
   
 </search>
